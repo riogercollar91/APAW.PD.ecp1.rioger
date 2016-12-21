@@ -8,7 +8,7 @@ public class ReferencesFactory {
 
     private int reference;
     
-
+    private static final ReferencesFactory INSTANCE = new ReferencesFactory();
 
     public ReferencesFactory() {
         this.references = new HashMap<String, Integer>();
